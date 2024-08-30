@@ -1,15 +1,20 @@
 {
-  "name": "yarn-berry-template",
+  "name": "template-vite-solid",
   "version": "1.0.0",
   "exports": "./src/index.ts",
-  "types": "./src/index.d.ts",
   "license": "MIT",
   "type": "module",
   "packageManager": "yarn@4.4.1",
   "scripts": {
-    "start": "yarn node --import tsx/esm ./start.ts",
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
     "lint": "eslint .",
     "od": "yarn outdated"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.22"
   },
   "devDependencies": {
     "@types/eslint": "^9",
@@ -22,8 +27,9 @@
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-unicorn": "^55.0.0",
-    "tsx": "^4.19.0",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "vite-plugin-solid": "^2.10.2"
   },
   "engines": {
     "node": ">=18 || >=20 || >=22"

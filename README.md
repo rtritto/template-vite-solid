@@ -1,10 +1,23 @@
-# Install
-`yarn add template-yarn-berry`
+![Vite](https://avatars.githubusercontent.com/u/65625612?s=48&v=4)
+![Solid](https://avatars.githubusercontent.com/u/79226042?s=48&v=4)
 
+# template-vite-solid
 
-# Example
-```ts
-import { <FUNCTION> } from 'template-yarn-berry'
+Template stack:
+- **Vite**
+- **Solid**
+- **ESLint**
+- **TypeScript**
 
-await <FUNCTION>()
-```
+## Clone
+`git clone https://github.com/rtritto/template-vite-solid.git`
+
+## Install
+`yarn`
+
+## Start
+`yarn start`
+
+OR
+
+`yarn dev`

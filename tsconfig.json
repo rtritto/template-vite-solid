@@ -6,6 +6,13 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "noEmit": true,
@@ -19,7 +26,7 @@
     "strict": true,
     "target": "ESNext",
     "types": [
-      "./src/index.d.ts"
+      "vite/client"
     ]
   }
 }
