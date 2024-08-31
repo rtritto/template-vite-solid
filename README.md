@@ -10,14 +10,16 @@ Template stack:
 - **TypeScript**
 
 ## Clone
-`git clone https://github.com/rtritto/template-vite-solid.git`
+```sh
+git clone https://github.com/rtritto/template-vite-solid.git
+```
 
 ## Install
-`yarn`
+```sh
+yarn
+```
 
 ## Start
-`yarn start`
-
-OR
-
-`yarn dev`
+```sh
+yarn dev
+```
