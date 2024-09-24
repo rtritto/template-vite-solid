@@ -12,13 +12,13 @@
     "od": "yarn outdated"
   },
   "dependencies": {
-    "solid-js": "^1.8.22"
+    "solid-js": "^1.8.23"
   },
   "devDependencies": {
     "@types/eslint": "^8.56.12",
-    "@types/node": "^22.5.5",
-    "@typescript-eslint/eslint-plugin": "^8.6.0",
-    "@typescript-eslint/parser": "^8.6.0",
+    "@types/node": "^22.6.1",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
     "@yarnpkg/sdks": "^3.2.0",
     "eslint": "^8.57.1",
     "eslint-import-resolver-node": "^0.3.9",
@@ -26,7 +26,7 @@
     "eslint-plugin-import": "^2.30.0",
     "eslint-plugin-unicorn": "^55.0.0",
     "typescript": "^5.5.4",
-    "vite": "^5.4.6",
+    "vite": "^5.4.7",
     "vite-plugin-solid": "^2.10.2"
   },
   "engines": {
