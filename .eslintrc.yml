@@ -11,13 +11,12 @@ extends:
   - plugin:@typescript-eslint/eslint-recommended
   - plugin:@typescript-eslint/recommended
   - plugin:import/recommended
+  - plugin:solid/recommended
   - plugin:import/typescript
 
 parser: '@typescript-eslint/parser'
 parserOptions:
   project: tsconfig.json
-plugins:
-  - '@typescript-eslint'
 
 rules:
   #region eslint
