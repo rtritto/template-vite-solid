@@ -1,25 +1,26 @@
-![Vite](https://avatars.githubusercontent.com/u/65625612?s=48&v=4)
-![Solid](https://avatars.githubusercontent.com/u/79226042?s=48&v=4)
-
 # template-vite-solid
 
-Template stack:
+### 📚 Template stack
 - **Vite**
 - **Solid**
 - **ESLint**
 - **TypeScript**
 
-## Clone
+<a href="https://github.com/tandpfun/skill-icons">
+  <img align="center" src="https://skillicons.dev/icons?i=vite,solidjs,ts&theme=dark" />
+</a>
+
+### ⬇️ Clone
 ```sh
 git clone https://github.com/rtritto/template-vite-solid.git
 ```
 
-## Install
+### ⚙️ Install
 ```sh
 yarn
 ```
 
-## Start
+### 🚀 Start
 ```sh
 yarn dev
 ```
